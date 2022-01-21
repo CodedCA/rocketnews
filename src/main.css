@@ -1,0 +1,159 @@
+:root {
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-color: #A8A8A8;
+  --bg-button-color: #8257e5;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left {
+
+    height: 100%;
+    width: 50%;
+    padding: 50px 0 0 36px;
+}
+
+.right {
+    display: flex;
+    background-image: url(./assets/read_news.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    background-position: right;
+}
+
+.logo {
+    width: 389px;
+    height: 94px;
+    margin-bottom: 92px;
+}
+
+.main-txt {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* Green */
+
+    color: #08C05E;
+    margin-bottom: 9px;
+}
+
+.sub-txt {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+.sub-s-txt {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    width: 647px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.sec-text {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    /* or 19px */
+    color: #A8A8A8;
+    margin-bottom: 117px;
+}
+
+.input {
+    position: absolute;
+    width: 798px;
+    height: 48px;
+    left: 36px;
+    top: 424px;
+    border: none;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+    padding: 17px 15px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+}
+
+.last-text {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 138.73%;
+    /* or 19px */
+    
+    
+    /* Purple */
+    
+    color: #8257E5;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+
+}
+
+.send {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 786px;
+    top: 424px;
+    background-image: url(src/assets/send.svg);
+    background: #8257E5;
+    border: none;
+    padding: 12px;
+}
+
+.send-icon {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.obj {
+    /* Rectangle 4 */
+
+
+    position: absolute;
+    width: 5px;
+    height: 48px;
+    left: 31px;
+    top: 424px;
+
+    background: #04D361;
+}
